@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Cutive Mono', 'monospace'], // Set Cutive Mono as the default font for sans
+      },
+    },
   },
   plugins: [],
 }
