@@ -5,7 +5,7 @@ import doubleQuoteSVG from '../assets/double.svg'; // Import your double quote S
 import Projects from './Projects'; // Import the Projects component
 import Skills from './Skills';
 import About from './About';
-import Contact from './contact';
+import Contact from './Contact';
 import Footer from './Footer';
 
 function Home() {
