@@ -15,7 +15,7 @@ function Projects() {
   const projects = [
     {
       name: 'Carbon Footprint Calculator For NATI CONSULTING SERVICES',
-      technologies: ['React', 'Node.js', 'Tailwind CSS', 'ExpressJS', 'MongoDB', 'Mongoose', 'Redux' ],
+      technologies: ['React |', 'Node.js |', 'Tailwind CSS |', 'ExpressJS |', 'MongoDB |', 'Mongoose |', 'Redux' ],
     },
     {
       name: 'Project B',
