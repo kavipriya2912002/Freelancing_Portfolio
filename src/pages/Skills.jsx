@@ -42,7 +42,7 @@ function Skills() {
                     <div className="border border-white w-full h-[200px] mb-2 flex flex-col justify-center items-center"> {/* Increased width and height */}
                             <h2 className="text-lg text-white">Backend</h2>
                             <div className="border-b border-white w-3/4 mb-2" /> {/* White line below the heading */}
-                            <p className="text-white">Node.js <br /> MongoDB <br /> MySQL <br />JSON Web Token (JWT) <br />Socket.IO <br /> Mongoose </p>
+                            <p className="text-white"> Node.js <br /> MongoDB <br /> MySQL <br />JSON Web Token (JWT) <br />Socket.IO <br /> Mongoose </p>
 
                         </div>
                         <div className="border border-white w-full h-[120px] mb-2 flex flex-col justify-center items-center"> {/* Increased width and height */}

@@ -1,18 +1,48 @@
 import React, { useState } from 'react';
-import hashIcon from '../assets/hash.svg'; // Adjust the path to your SVG file
-import lineIcon from '../assets/Line.svg'; // Import your line SVG file
-import Card from '../components/Card'; // Make sure to import your Card component
+import hashIcon from '../assets/hash.svg';
+import lineIcon from '../assets/Line.svg';
+import Card from '../components/Card';
 
 function Projects() {
   const [showAll, setShowAll] = useState(false); // State to manage card visibility
 
   // Function to toggle card visibility
   const toggleShowAll = () => {
-    setShowAll(!showAll);
+    setShowAll((prevShowAll) => !prevShowAll);
   };
 
-  // Example cards array (you can replace this with your actual data)
-  const cards = [1, 2, 3, 4, 5, 6].map((_, index) => <Card key={index} />);
+  // Example cards array with project data
+  const projects = [
+    {
+      name: 'Carbon Footprint Calculator For NATI CONSULTING SERVICES',
+      technologies: ['React', 'Node.js', 'Tailwind CSS', 'ExpressJS', 'MongoDB', 'Mongoose', 'Redux' ],
+    },
+    {
+      name: 'Project B',
+      technologies: ['Vue.js', 'Express', 'Bootstrap'],
+    },
+    {
+      name: 'Project C',
+      technologies: ['Angular', 'Django', 'Sass'],
+    },
+    {
+      name: 'Project D',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+    },
+    {
+      name: 'Project E',
+      technologies: ['PHP', 'Laravel', 'MySQL'],
+    },
+    {
+      name: 'Project F',
+      technologies: ['Ruby', 'Rails', 'PostgreSQL'],
+    },
+  ];
+
+  // Map the projects to Card components
+  const cards = projects.map((project, index) => (
+    <Card key={index} projectName={project.name} technologies={project.technologies} />
+  ));
 
   return (
     <div className="flex flex-col p-4 mt-12">
@@ -26,13 +56,19 @@ function Projects() {
           href="#"
           onClick={toggleShowAll} // Call toggle function on click
           className="text-white hover:underline mr-8 whitespace-nowrap"
+          role="button"
+          aria-expanded={showAll}
+          aria-controls="projects"
         >
           {showAll ? 'View Less' : 'View All'} &gt;
         </a>
       </div>
 
       {/* Cards Container */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div
+        id="projects"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+      >
         {/* Render either the first three cards or all cards based on showAll state */}
         {showAll ? cards : cards.slice(0, 3)}
       </div>
