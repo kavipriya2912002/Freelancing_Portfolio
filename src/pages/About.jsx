@@ -14,23 +14,24 @@ function About() {
 
       <div className="flex mt-10 w-full">
         <div className="flex-1 p-4 text-white"> {/* Allowing more width by using flex-1 */}
-          <h2 className="text-xl font-semibold">Our Freelancing Full Stack Project</h2>
-          <p className="mt-2 text-justify"> {/* Added text-justify class */}
-            In this project, we developed a comprehensive web application that provides various functionalities 
-            to users. Our team worked on both the frontend and backend, utilizing technologies such as React, 
-            Node.js, Express, and MongoDB. The goal was to create a user-friendly interface while ensuring 
-            robust performance and security on the server side.
+          <h2 className="text-xl md:text-2xl font-semibold">Our Freelancing Full Stack Project</h2>
+          <p className="mt-2 text-justify text-base md:text-lg"> {/* Adjusted text size for desktop */}
+            At <span className='fontStyle'>skillscope</span>, we specialize in delivering cutting-edge full-stack development solutions
+            tailored to your business needs. Our team brings expertise in a range of modern technologies,
+            including <span className='fontStyle'>MERN (MongoDB, Express, React, Node.js), SQL, and Golang</span>. We are passionate about crafting scalable,
+            efficient, and responsive web applications that power seamless user experiences.
           </p>
-          <p className="mt-2 text-justify"> {/* Added text-justify class */}
-            Throughout the project, we focused on implementing best practices in coding and design, ensuring 
-            a seamless experience for our users. The application includes features like user authentication, 
-            data visualization, and responsive design, making it accessible on any device.
+          <p className="mt-2 text-justify text-base md:text-lg"> {/* Adjusted text size for desktop */}
+            Whether you're looking to build a dynamic website, a robust backend system,
+            or a fully integrated web platform, our developers ensure that every project is completed with precision,
+            innovation, and best-in-class performance. We pride ourselves on delivering custom solutions that not only
+            meet but exceed expectations.
           </p>
         </div>
         <div className="hidden md:flex md:flex-[0.4] p-4 justify-center items-center"> {/* Right side: 40% */}
-          <img 
-            src={projectImage} 
-            alt="Project" 
+          <img
+            src={projectImage}
+            alt="Project"
             className="w-[343px] h-[508px] rounded-lg" // Set specific width and height
           />
         </div>

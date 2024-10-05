@@ -29,19 +29,21 @@ function Skills() {
                 <div className="w-full md:w-3/5 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-8"> {/* Flex container for the columns */}
                     {/* First Column */}
                     <div className="flex flex-col w-full md:w-1/3 p-4"> {/* First Column: 1/3 width with padding */}
-                        <div className="border border-white w-full h-[200px] mb-2 flex flex-col justify-center items-center"> {/* Increased width and height */}
+                        <div className="border border-white w-full h-[300px] mb-2 flex flex-col justify-center items-center"> {/* Increased width and height */}
                             <h2 className="text-lg text-white">Frontend</h2>
                             <div className="border-b border-white w-3/4 mb-2" /> {/* White line below the heading */}
-                            <p className="text-white">HTML <br /> CSS <br /> JavaScript <br /> ReactJS <br /> Bootstrap <br /> Tailwind </p>
+                            <p className="text-white">HTML <br /> CSS <br /> JavaScript <br /> ReactJS <br /> Bootstrap <br /> Tailwind CSS <br /> MaterialUI <br /> Axios <br /> Redux</p>
                         </div>
                     </div>
 
                     {/* Second Column */}
                     <div className="flex flex-col w-full md:w-1/3 p-4"> {/* Second Column: 1/3 width with padding */}
-                        <div className="border border-white w-full h-[120px] mb-4 flex flex-col justify-center items-center"> {/* Increased width and height */}
+
+                    <div className="border border-white w-full h-[200px] mb-2 flex flex-col justify-center items-center"> {/* Increased width and height */}
                             <h2 className="text-lg text-white">Backend</h2>
                             <div className="border-b border-white w-3/4 mb-2" /> {/* White line below the heading */}
-                            <p className="text-white">Node.js <br /> MongoDB <br /> MySQL </p>
+                            <p className="text-white">Node.js <br /> MongoDB <br /> MySQL <br />JSON Web Token (JWT) <br />Socket.IO <br /> Mongoose </p>
+
                         </div>
                         <div className="border border-white w-full h-[120px] mb-2 flex flex-col justify-center items-center"> {/* Increased width and height */}
                             <h2 className="text-lg text-white">Framework</h2>
@@ -53,15 +55,15 @@ function Skills() {
 
                     {/* Third Column */}
                     <div className="flex flex-col w-full md:w-1/3 p-4"> {/* Added padding for spacing */}
-                        <div className="border border-white w-full h-[120px] mb-4 flex flex-col justify-center items-center"> {/* Increased width and height */}
+                        <div className="border border-white w-full h-[160px] mb-4 flex flex-col justify-center items-center"> {/* Increased width and height */}
                             <h2 className="text-lg text-white">Database</h2>
                             <div className="border-b border-white w-3/4 mb-2" /> {/* White line below the heading */}
-                            <p className="text-white">MongoDB <br /> SQL</p>
+                            <p className="text-white">MongoDB <br /> MySQL <br />Sequelize <br /> Redis</p>
                         </div>
-                        <div className="border border-white w-full h-[120px] mb-2 flex flex-col justify-center items-center"> {/* Increased width and height */}
-                            <h2 className="text-lg text-white">Additional Database</h2>
+                        <div className="border border-white w-full h-[210px] mb-2 flex flex-col justify-center items-center"> {/* Increased width and height */}
+                            <h2 className="text-lg text-white"> Tools</h2>
                             <div className="border-b border-white w-3/4 mb-2" /> {/* White line below the heading */}
-                            <p className="text-white">PostgreSQL <br /> SQLite</p>
+                            <p className="text-white">Git  <br /> GitHub <br /> Postman  <br /> Insomnia  <br /> NPM <br /> AWS  </p>
                         </div>
                     </div>
 

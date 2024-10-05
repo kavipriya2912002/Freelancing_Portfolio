@@ -9,7 +9,7 @@ function Footer() {
       </div>
 
       <div className="flex flex-col items-center text-white text-center">
-        <p className="mb-2">© 2024 Your Company Name. All Rights Reserved.</p>
+        <p className="mb-2">© 2024 Skillscope. All Rights Reserved.</p>
         <p className="mb-2">Follow us on:</p>
         <div className="flex space-x-4">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">Facebook</a>

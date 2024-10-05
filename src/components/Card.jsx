@@ -27,12 +27,7 @@ function Card() {
       {/* Third Div: Project Name */}
       <div className="p-4 border-t border-white">
         <h2 className="text-white text-xl">Project Name</h2>
-        <a 
-          href="#" // Replace with the actual link to the live project
-          className="mt-4 inline-block px-4 py-2 border border-[#C778DD] text-[#C778DD] rounded hover:bg-[#C778DD] hover:text-white transition duration-300"
-        >
-          Live
-        </a>
+        
       </div>
     </div>
   );
