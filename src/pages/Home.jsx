@@ -36,7 +36,7 @@ function Home() {
                         <img
                             src={backgroundImage}
                             alt="Background"
-                            className="absolute -translate-x-1/2 top-4 md:top-8 lg:top-12 z-0 w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 mr-9"
+                            className="absolute -translate-x-1/2 animate-pulse top-4 md:top-8 lg:top-12 z-0 w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-48 xl:h-48 mr-9"
                         />
                         <img
                             src={mainImage}
@@ -49,7 +49,7 @@ function Home() {
 
             {/* Centered Quote and Author Below */}
             <div className="flex flex-col items-center mt-12 px-4">
-                <div className="flex justify-between items-start max-w-3xl w-full">
+                <div className="flex justify-between items-start animate-pulse max-w-3xl w-full">
                     <div className="relative border border-white text-white py-4 px-8 rounded-md text-center flex-grow mr-4">
                         <img
                             src={doubleQuoteSVG}

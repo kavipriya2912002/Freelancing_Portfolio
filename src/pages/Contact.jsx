@@ -11,7 +11,7 @@ function Contact() {
         <img src={lineIcon} alt="Line" className="ml-2 h-6 w-1/3" />
       </div>
 
-      <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl px-4 md:px-0">
+      <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl px-4 animate-bounce md:px-0">
         {/* Email Box */}
         <div className="border border-white p-4 rounded-lg shadow-lg text-white text-center">
           <h2 className="font-semibold text-lg">Email</h2>

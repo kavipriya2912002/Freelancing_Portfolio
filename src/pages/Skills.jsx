@@ -18,11 +18,11 @@ function Skills() {
                 {/* Left Side - 40% Width, Hidden on Mobile */}
                 <div className="hidden md:flex w-2/5 flex-wrap justify-between"> {/* Using flex-wrap to arrange SVGs randomly */}
                     <div className="flex w-full justify-between"> {/* Flex to arrange images side by side */}
-                        <img src={skillIcon3} alt="Skill 1" className="w-28 h-28 mt-9 ml-16" />
-                        <img src={skillIcon1} alt="Skill 2" className="w-28 h-28 mr-60 mt-11" />
+                        <img src={skillIcon3} alt="Skill 1" className="w-28 h-28 mt-9 animate-spin ml-16" />
+                        <img src={skillIcon1} alt="Skill 2" className="w-28 h-28 mr-60 mt-11 animate-spin" />
                     </div>
-                    <img src={skillIcon2} alt="Skill 2" className="w-28 h-28 ml-40" />
-                    <img src={skillIcon3} alt="Skill 1" className="w-24 h-24 mr-16" />
+                    <img src={skillIcon2} alt="Skill 2" className="w-28 h-28 ml-40 animate-spin" />
+                    <img src={skillIcon3} alt="Skill 1" className="w-24 h-24 mr-16 animate-spin" />
                 </div>
 
                 {/* Right Side - 60% Width */}
